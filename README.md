@@ -1,2 +1,3 @@
 # QueryMusicAndAwards
-This Java app connects to a mySQL database and queries it
+
+A Java app that connects a MySQL database that I have created and queries it.
