@@ -1,15 +1,3 @@
-/*
-Author: Christopher Roberts
-E-mail: cmr663@psu.edu
-Course: CMPSC 221
-Assigment: Final Programming Assigment
-Due Date: 5/6/2020
-File: QueryMusicAndAwards.java
-Purpose: Java app that connects to a mySQL database and queries it
-Compiler/IDE: IntelliJ IDEA
-Operating System: MS Windows 10
-References: https://www.geeksforgeeks.org/sql-group-by/, https://www.w3schools.com/sql/sql_where.asp, https://www.geeksforgeeks.org/sql-order-by/,
- */
 import java.sql.*;
 public class Music {
     //Database URL
@@ -19,7 +7,7 @@ public class Music {
 
         try{
             // establish connection to database
-            Connection connection = DriverManager.getConnection(DATABASE_URL, "root", "Biomega2487!");
+            Connection connection = DriverManager.getConnection(DATABASE_URL, "root", "---");
 
             // process query results
             try{
